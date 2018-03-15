@@ -27,7 +27,7 @@ func (f Slices) Len() int {
 	return len(f)
 }
 
-func (f Slices) Less(i, j int) bool { //Greater Greaterというの名前のがなかったのでLessの＞の向き変えました
+func (f Slices) Less(i, j int) bool { 
 	return f[i].N > f[j].N
 }
 
